@@ -116,11 +116,11 @@ public class Main
         System.err.println();
         System.out.println("**** Snacks ****");
 
-        System.out.println(snackChips.getSnack());
-        System.out.println(snackChocolate.getSnack());
-        System.out.println(snackPretzels.getSnack());
-        System.out.println(snackSoda.getSnack());
-        System.out.println(snackWater.getSnack());
+        System.out.println(snackChips.toString());
+        System.out.println(snackChocolate.toString());
+        System.out.println(snackPretzels.toString());
+        System.out.println(snackSoda.toString());
+        System.out.println(snackWater.toString());
 
 
 

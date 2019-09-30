@@ -91,7 +91,8 @@ public class Snack {
     }
 
     //STRETCH
-    public String getSnack()
+    @Override
+    public String toString()
     {
         String vending = "";
         if( vendingId == 1)
